@@ -11,6 +11,7 @@ func runApp(err bool) {
 	if err {
 		panic("Error")
 	}
+	fmt.Println("Tidak Dijalankan!")
 }
 func main() {
 	runApp(true)
