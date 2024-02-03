@@ -7,8 +7,8 @@ type Person struct {
 }
 
 func main() {
-	person1 := Person{"fazrul", "Jl.Manado", "20"}
-	changeValue(&person1)
+	person1 := &Person{"fazrul", "Jl.Manado", "20"}
+	changeValue(person1)
 	fmt.Println(person1)
 }
 
